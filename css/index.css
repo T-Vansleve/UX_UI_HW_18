@@ -1,5 +1,12 @@
 {background-color: #F3ECE1}
 
+.container {
+    background-image: url("../images/bg-image.png");
+    margin: 0px;
+    padding: 0px;
+}
+  /* MY CODE FROM HERE DOWN*/
+
 /* top nav */
 
 .inlineBlock{
