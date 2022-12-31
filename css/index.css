@@ -3,8 +3,15 @@
 .container {
     background-image: url("../images/bg-image.png");
     margin: 0px;
-    padding: 0px;
+    padding-bottom: 200px;
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    
+    
+
 }
+
+
   /* MY CODE FROM HERE DOWN*/
 
 /* top nav */
@@ -48,14 +55,15 @@ button{
 /* hero section */
 
 .heroimg{
-    height: 500px;
     padding-left: 50px;
-    margin-top: 400px;
 
 }
 
 .content{
     width: 600px;
+    padding-bottom: 400px;
+    padding-top: 300px;
+
 }
 
 h3 {
@@ -73,10 +81,11 @@ h4 {
 /* footer section */
 
 .footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    
 }
 
 .footerBar{
