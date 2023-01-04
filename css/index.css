@@ -3,7 +3,7 @@
 .container {
     background-image: url("../images/bg-image.png");
     margin: 0px;
-    padding-bottom: 200px;
+
     background-size: 100%;
     background-repeat: no-repeat; 
     
@@ -79,9 +79,19 @@ h4 {
 
 /* case study list */
 
+.myProjects{
+    display:inline-block;
+}
 
+.featureImg{
+   float: left;  
+   width: 50%;
+}
 
-
+.caseStudyTitles{
+display:inline-block;
+width: 50%;
+}
 
 
 /* footer section */
@@ -91,6 +101,7 @@ h4 {
     bottom: 0;
     left: 0;
     width: 100%;
+    display: block;
     
 }
 
