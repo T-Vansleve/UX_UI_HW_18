@@ -130,6 +130,10 @@ h1 {
 }
 /* my skills section */
 
+.mySkills{
+    padding-bottom: 0px;
+}
+
 #skillsHeading{
     text-align: center;
     padding-top: 150px;
@@ -148,9 +152,6 @@ h1 {
     justify-self: center;
     text-align: center;
 
-
-
-
 }
 
 .skillsCenter{
@@ -164,7 +165,20 @@ h1 {
     padding-bottom: 50px;
 }
 
+/* quote section */
 
+#quoteText{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+
+}
+
+.author{
+    text-align: right;
+    padding-right: 230px;
+    padding-bottom: 100px;
+}
 
 /* footer section */
 
