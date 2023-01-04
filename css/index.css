@@ -133,30 +133,35 @@ h1 {
 #skillsHeading{
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
 .skills{
     display:inline-grid;
-    grid-template-columns: 25% 25% 25% 25% 25%;
-    grid-gap: 0px 0px;
+    grid-template-columns: 20% 20% 20%;
+    grid-gap: 20px 20px;
     justify-content: center;
+
+
+
+
 }
 
 .skillsLeft{
-    grid-column: 2; 
-    align-items: center;
+    grid-column: 33%; 
+    justify-self: center;
 
 }
 
 .skillsCenter{
-    grid-column: 3; 
-    align-items: center;
+    grid-column: 33%; 
+    justify-self: center;
 }
 
 .skillsRight{
-    grid-column: 4; 
-    align-items: center;
+    grid-column: 33%; 
+    justify-self: center;
 }
 
 /* footer section */
