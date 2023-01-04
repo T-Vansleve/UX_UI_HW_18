@@ -3,16 +3,14 @@
 .container {
     background-image: url("../images/bg-image.png");
     margin: 0px;
-
     background-size: 100%;
     background-repeat: no-repeat; 
-    
-    
+    background-position: right top;
+    padding-bottom: 0%;
 
 }
 
 
-  /* MY CODE FROM HERE DOWN*/
 
 /* top nav */
 
@@ -80,19 +78,86 @@ h4 {
 /* case study list */
 
 .myProjects{
-    display:inline-block;
+    display:inline-grid;
+    grid-template-rows: 2;
+    grid-gap: 0px 0px;
 }
 
 .featureImg{
-   float: left;  
-   width: 50%;
+    grid-column: 1; 
+    justify-self: start;
+
+}
+
+.text{
+    grid-column: 2; 
+    justify-self: end;
 }
 
 .caseStudyTitles{
-display:inline-block;
-width: 50%;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    display:inline-grid;
+    grid-gap: 10px 10px;
+    
 }
 
+.caseNumber{
+    grid-column: 1; 
+    justify-self: center;
+    align-self: start;
+    padding-top: 20px;
+}
+
+.titleText{
+    grid-column: 2; 
+
+
+}
+#subcaption{
+    grid-row: 2; 
+    align-self: start;
+    padding-top: 0px;
+
+}
+
+h1 {
+    font-family: Maragsa;
+    font-size: 50px;
+    padding-bottom: 0px;
+
+
+}
+/* my skills section */
+
+#skillsHeading{
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.skills{
+    display:inline-grid;
+    grid-template-columns: 25% 25% 25% 25% 25%;
+    grid-gap: 0px 0px;
+    justify-content: center;
+}
+
+.skillsLeft{
+    grid-column: 2; 
+    align-items: center;
+
+}
+
+.skillsCenter{
+    grid-column: 3; 
+    align-items: center;
+}
+
+.skillsRight{
+    grid-column: 4; 
+    align-items: center;
+}
 
 /* footer section */
 
