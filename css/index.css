@@ -3,7 +3,7 @@
 .container {
     background-image: url("../images/bg-image.png");
     margin: 0px;
-    background-size: 100%;
+    background-size: 80%;
     background-repeat: no-repeat; 
     background-position: right top;
     padding-bottom: 0%;
@@ -132,7 +132,7 @@ h1 {
 
 #skillsHeading{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 150px;
     padding-bottom: 50px;
 }
 
@@ -140,17 +140,16 @@ h1 {
 .skills{
     display:inline-grid;
     grid-template-columns: 20% 20% 20%;
-    grid-gap: 20px 20px;
     justify-content: center;
-
-
-
-
 }
 
 .skillsLeft{
     grid-column: 33%; 
     justify-self: center;
+    text-align: center;
+
+
+
 
 }
 
@@ -159,10 +158,13 @@ h1 {
     justify-self: center;
 }
 
-.skillsRight{
-    grid-column: 33%; 
-    justify-self: center;
+.skillsFont{
+    font-family: 'arial', medium;
+    font-size: 12px;
+    padding-bottom: 50px;
 }
+
+
 
 /* footer section */
 
